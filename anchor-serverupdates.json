@@ -1,0 +1,14 @@
+[
+    {
+        "UpdateStageName": "Anchor Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://nightly.link/garrettjoecox/anchor/workflows/build-binaries/main/anchor-linux-x64.zip",
+        "UpdateSourceArgs": "garrettjoecox/anchor",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": false,
+        "UpdateSourceConditionSetting": "Download from Github page",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
